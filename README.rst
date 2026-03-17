@@ -5,7 +5,7 @@ Pretalx Plausible Plugin
    :target: https://htmlpreview.github.io/?https://github.com/JRingelstein/pretalx-plausible/blob/python-coverage-comment-action-data/htmlcov/index.html
    :alt: Coverage
 
-This is a plugin for `pretalx`_ that adds support for `Plausible Analytics`_ to pretalx events. It allows you to easily integrate Plausible into your event website and track visitor behavior.
+This is a plugin for `pretalx`_ that adds support for Plausible to pretalx events. It allows you to easily integrate Plausible into your event website and track visitor behavior.
 
 Development setup
 -----------------
