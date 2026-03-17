@@ -1,0 +1,6 @@
+recursive-include pretalx_plausible/static *
+recursive-include pretalx_plausible/templates *
+exclude pretalx_plausible/locale/django.pot
+recursive-include pretalx_plausible/locale *
+recursive-include pretalx_plausible *.py
+include justfile
