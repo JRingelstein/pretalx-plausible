@@ -1,4 +1,5 @@
 from django.dispatch import receiver
+from django.templatetags.static import static
 
 from pretalx.orga.signals import html_head
 
@@ -19,4 +20,4 @@ def plausible_url(sender, request, **kwargs):
     if not plausible_url:
         return ""
 
-    return f'<script async src="{plausible_url}"></script> <script unsafe-inline>window.plausible=window.plausible||function(){{(plausible.q=plausible.q||[]).push(arguments)}},plausible.init=plausible.init||function(i){{plausible.o=i||{{}}}};plausible.init()</script>'
+    return f'<script async src="{plausible_url}"></script> <script src="{static("pretalx_plausible/plausible-init.js")}"></script>'
