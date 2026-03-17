@@ -8,9 +8,9 @@
 | pretalx\_plausible/apps.py         |       16 |        0 |        0 |        0 |    100% |           |
 | pretalx\_plausible/forms.py        |        9 |        0 |        0 |        0 |    100% |           |
 | pretalx\_plausible/models.py       |        4 |        0 |        0 |        0 |    100% |           |
-| pretalx\_plausible/signals.py      |       16 |        1 |        4 |        1 |     90% |        12 |
+| pretalx\_plausible/signals.py      |       17 |        1 |        4 |        1 |     90% |        13 |
 | pretalx\_plausible/views.py        |       34 |        7 |        2 |        1 |     78% |     32-40 |
-| **TOTAL**                          |   **80** |    **8** |    **6** |    **2** | **88%** |           |
+| **TOTAL**                          |   **81** |    **8** |    **6** |    **2** | **89%** |           |
 
 
 ## Setup coverage badge
