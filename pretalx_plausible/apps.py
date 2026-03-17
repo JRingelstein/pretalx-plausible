@@ -22,4 +22,5 @@ class PlausibleApp(AppConfig):
     def ready(self):
         from . import signals  # noqa: PLC0415, F401
 
+
 default_app_config = "pretalx_plausible.PlausibleApp"

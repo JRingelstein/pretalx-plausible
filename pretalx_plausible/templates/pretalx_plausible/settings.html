@@ -2,9 +2,9 @@
 {% block extra_title %}Pretalx Plausible Plugin Settings :: {% endblock extra_title %}
 
 {% block content %}
-<h2>Pretalx Plausible Plugin Settings</h2>
+    <h2>Pretalx Plausible Plugin Settings</h2>
 
-<form method="POST" class="d-flex flex-column gap-2">
+    <form method="POST" class="d-flex flex-column gap-2">
         {% csrf_token %}
         {{ form.plausible_url }}
         <div class="d-flex gap-2">

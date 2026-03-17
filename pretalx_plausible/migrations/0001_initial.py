@@ -5,20 +5,30 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     initial = True
 
-    dependencies = [
-        ('event', '0041_event_og_image'),
-    ]
+    dependencies = [("event", "0041_event_og_image")]
 
     operations = [
         migrations.CreateModel(
-            name='PlausibleSettings',
+            name="PlausibleSettings",
             fields=[
-                ('id', models.AutoField(auto_created=True, primary_key=True, serialize=False)),
-                ('plausible_url', models.CharField(max_length=255)),
-                ('event', models.OneToOneField(null=True, on_delete=django.db.models.deletion.CASCADE, related_name='plausible_url', to='event.event')),
+                (
+                    "id",
+                    models.AutoField(
+                        auto_created=True, primary_key=True, serialize=False
+                    ),
+                ),
+                ("plausible_url", models.CharField(max_length=255)),
+                (
+                    "event",
+                    models.OneToOneField(
+                        null=True,
+                        on_delete=django.db.models.deletion.CASCADE,
+                        related_name="plausible_url",
+                        to="event.event",
+                    ),
+                ),
             ],
-        ),
+        )
     ]
